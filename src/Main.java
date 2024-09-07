@@ -2,12 +2,11 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-     Dice dice1 = new Dice();
+         Dice dice1 = new Dice();
 
-     dice1.rollTheDice();
-
-        for(int i=1;i<=5;i++) {
-            System.out.println(dice1.faceNumber);
-        }
+         dice1.rollTheDice();
+         for(int i=1;i<=5;i++) {
+             System.out.println(dice1.faceNumber);
+         }
     }
 }
